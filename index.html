@@ -7,40 +7,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>My Tech Goals for the Next 2-3 Years</h1>
-    </header>
     <main>
-        <section>
-            <h2>Introduction</h2>
-            <p>Welcome! Here are my tech goals for the next few years:</p>
-        </section>
-        
-        <section id="contact">
-            <h2>Contact Information</h2>
-            <p>Slack Display Name: <span data-testid="slackDisplayName">Nwanne Nnamani</span></p>
-            <p>Slack Email: <span data-testid="slackEmail">nnamaninwanne@example.com</span></p>
+        <h1 data-testid="slackDisplayName">Nwanne Nnamani</h1>
+        <div class="info">
+            <p>Email: <span data-testid="slackEmail">nnamaninwanne@gmail.com</span></p>
             <p>Current Time (UTC): <span data-testid="currentTimeUTC"></span></p>
             <p>Current Day: <span data-testid="currentDay"></span></p>
-            <img src="https://ca.slack-edge.com/T07466B189M-U07A4FB7DBP-6e409ea022de-512"  data-testid="slackProfilePicture" alt="Slack Profile Picture">
-            
-        </section>
-        <section>
-            <h2>Goals</h2>
-            <ul>
-                <li>Goal 1</li>
-                <li>Goal 2</li>
-                <li>Goal 3</li>
-                <!-- Add more goals as needed -->
-            </ul>
-            <div class="links">
-                <a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
-            
-                <a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
-            
-                <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a>
+        </div>
+        <section class="contact">
+            <div id="contact">
+                    <h2>Goals</h2>
+                    <p>From a young age, I have always been fascinated by the implementation of web pages and how they seamlessly link and communicate with us through our devices.
+                        This fascination led me to spend countless hours reading and learning about how to achieve various tasks using a computer.
+                        As a frontend web developer, my primary goal is to hone my skills and grow professionally. 
+                        I aspire to become exceptional in building interactive and flexible websites that provide users with an outstanding experience. </p>
+                        
+                        
+                      <p>  In addition to advancing my web development skills, I am inspired to begin a journey into Artificial Intelligence (AI) research.
+                         I believe that integrating AI with web development can create smarter, more intuitive web applications. 
+                         Exploring AI will not only expand my knowledge but also open up new possibilities for innovation in the tech field.</p>
+                    <div class="links">
+                        <a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
+                    
+                        <a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
+                    
+                        <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a>
+                    </div>
+                
             </div>
+            <img src="https://ca.slack-edge.com/T07466B189M-U07A4FB7DBP-3e298399fe82-512"  data-testid="slackProfilePicture" alt="Slack Profile Picture">
         </section>
+
+        
     </main>
     <script src="script.js"></script>
 </body>
